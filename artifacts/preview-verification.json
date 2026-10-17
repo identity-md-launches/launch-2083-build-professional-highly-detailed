@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-17T15:17:29.146Z",
+  "chainId": 1,
+  "method": "tokenURI(uint256)",
+  "results": [
+    {
+      "id": 1,
+      "matches": true,
+      "sha256": "4c3810e6fdfb564a7f9b3be6f4ea21e0a1bb66e9b64d126c94c01b153534890a"
+    },
+    {
+      "id": 3,
+      "matches": true,
+      "sha256": "4f303a9250ab12d0619c0481d8b007e353fcd93cf0efb5e6df4a0f452c173342"
+    },
+    {
+      "id": 4,
+      "matches": true,
+      "sha256": "63cdadd05230dbd9036043891f9854df26afca35bbd88c02f1602a2927ff3e25"
+    },
+    {
+      "id": 6,
+      "matches": true,
+      "sha256": "11a4ac3bf3ab27fd9bed93f848092affa0c17324719668b3b7c90b4c7a5269d2"
+    },
+    {
+      "id": 13,
+      "matches": true,
+      "sha256": "73715fedafdf3714a0305caf5250215479bbae0ed8ae64149c9207fbe4bf1410"
+    },
+    {
+      "id": 25,
+      "matches": true,
+      "sha256": "a09a29911ee891910193abfd11e8cb0c49abe40e5c10347b1819f0128ba95a1e"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+# Path budget: dependency/cache directories at any depth; local scratch only.
+**/node_modules/
+**/.vite/
+**/.cache/
+**/*.tsbuildinfo
+/test/scratch/
+!/artifacts/
+!/artifacts/**

@@ -1,0 +1,20 @@
+{
+  "measurement": "Uncompressed submitted files, including this report; excludes VCS metadata, supplied .imd inputs, and deleted test/scratch",
+  "limitBytes": 8388608,
+  "totalBytes": 2024686,
+  "fileCount": 91,
+  "groups": {
+    "root files": 67131,
+    "LICENSES/": 11964,
+    "artifacts/": 790295,
+    "assets/": 39415,
+    "dist/": 730493,
+    "public/": 227300,
+    "scripts/": 34332,
+    "src/": 123756
+  },
+  "noDependencyDirectories": true,
+  "noArchivesOrSymlinks": true,
+  "ignoreFileBudgetBytes": 256,
+  "actualIgnoreFileBytes": 176
+}

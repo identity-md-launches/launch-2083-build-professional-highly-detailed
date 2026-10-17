@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-17T15:17:38.286Z",
+  "checks": [
+    "390px first screen shows the product, loaded artwork, and primary mint action",
+    "Both themes: no horizontal overflow at seven widths; axe reports zero tested WCAG violations",
+    "200% text enlargement reflows at 390px without horizontal scroll",
+    "Theme toggle works and persists across reload",
+    "Mobile navigation and mint anchor reach the intended sections",
+    "Wallet dialog traps native focus, closes with Escape, restores focus, and explains a missing wallet",
+    "Gallery details, deterministic token traits, expansion, pause control, and reduced-motion stills work",
+    "Seed reproduction validates range and all five published NIST seed vectors; token 5555 and FAQ disclosure work",
+    "EIP-6963 names both wallets, suppresses generic fallback, connects only on request, and recovers from rejection",
+    "Quantity 1–5, exact mint(uint256) calldata, zero value, no approvals, pending lock, confirmation, and lifetime cap work",
+    "Exact claim() call goes to the distributor; confirmation refreshes the ETH balance and empty state",
+    "Insufficient IMD, rejected signature, retry, and mined transaction failure produce recoverable states",
+    "An account change during simulation blocks submission",
+    "Wrong-network switch/add-chain fallback, passive reconnect, and local disconnect work without submitting a transaction",
+    "Phone sheet offers four encoded wallet-app links and Coinbase Smart Wallet without a relay or project ID",
+    "With external network blocked, local art, seed reproduction, wallet entry, unavailable supply, and retry remain usable",
+    "No application exceptions or missing local resources in the production export"
+  ],
+  "reports": [
+    {
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "limitation": "WebKit unavailable on this worker",
+      "reason": "browserType.launch: \n╔══════════════════════════════════════════════════════╗\n║ Host system is missing dependencies to run browsers. ║\n║ Missing libraries:                                   ║\n║     libgtk-4.so.1                                    ║\n║     libpangocairo-1.0.so.0                           ║\n║     libgdk_pixbuf-2.0.so.0                           ║\n║     libcairo-gobject.so.2                            ║\n║     libgraphene-1.0.so.0                             ║\n║     liblcms2.so.2                                    ║\n║     libevent-2.1.so.7                                ║\n║     libopus.so.0                                     ║\n║     libgstallocators-1.0.so.0                        ║\n║     libgstapp-1.0.so.0                               ║\n║     libgstpbutils-1.0.so.0                           ║\n║     libgstaudio-1.0.so.0                             ║\n║     libgsttag-1.0.so.0                               ║\n║     libgstvideo-1.0.so.0                             ║\n║     libgstgl-1.0.so.0                                ║\n║     libgstcodecparsers-1.0.so.0                      ║\n║     libgstfft-1.0.so.0                               ║\n║     libflite.so.1                                    ║\n║     libflite_usenglish.so.1                          ║\n║     libflite_cmu_grapheme_lang.so.1                  ║\n║     libflite_cmu_grapheme_lex.so.1                   ║\n║     libflite_cmu_indic_lang.so.1                     ║\n║     libflite_cmu_indic_lex.so.1                      ║\n║     libflite_cmulex.so.1                             ║\n║     libflite_cmu_time_awb.so.1                       ║\n║     libflite_cmu_us_awb.so.1                         ║\n║     libflite_cmu_us_kal16.so.1                       ║\n║     libflite_cmu_us_kal.so.1                         ║\n║     libfli"
+    }
+  ],
+  "errors": []
+}

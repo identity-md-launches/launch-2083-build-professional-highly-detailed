@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#111513" />
+    <title>SeedClock | A moment, forever on-chain</title>
+    <meta
+      name="description"
+      content="5,555 animated on-chain clocks, seeded by recovered 1997 timestamps. Explore SeedClock, mint free with 1 IMD, and claim holder royalties on Ethereum."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="SeedClock | A moment, forever on-chain"
+    />
+    <meta
+      property="og:description"
+      content="5,555 on-chain clocks. A recovered moment in cryptographic history. Free mint for IMD holders on Ethereum."
+    />
+    <meta property="og:image" content="./social-card.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <script>
+      try {
+        document.documentElement.dataset.theme =
+          localStorage.getItem("seedclock-theme") === "light"
+            ? "light"
+            : "dark";
+      } catch {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+{
+  "timestamp": "2026-10-17T15:02:35.263Z",
+  "rpc": "https://ethereum-rpc.publicnode.com",
+  "results": [
+    {
+      "method": "eth_chainId",
+      "status": 200,
+      "response": {
+        "jsonrpc": "2.0",
+        "result": "0x1",
+        "id": 1
+      }
+    },
+    {
+      "method": "eth_getCode",
+      "status": 200,
+      "response": {
+        "codeBytes": 21150
+      }
+    },
+    {
+      "method": "eth_getCode",
+      "status": 200,
+      "response": {
+        "codeBytes": 6593
+      }
+    },
+    {
+      "method": "eth_call",
+      "status": 200,
+      "value": [
+        "0x147456d867937Bba20F5bb4eE85B2e6D899E780E",
+        "0x147456d867937Bba20F5bb4eE85B2e6D899E780E",
+        "690"
+      ]
+    },
+    {
+      "method": "eth_call",
+      "status": 200,
+      "value": "0x3d6a89C8751a45DD577a4C1F3b34E71C58236193"
+    },
+    {
+      "method": "eth_call",
+      "status": 200,
+      "value": "55"
+    },
+    {
+      "method": "eth_call",
+      "status": 200,
+      "tokenName": "SeedClock #3",
+      "imageFormat": "data:image/svg+xml;base64,",
+      "attributes": [
+        {
+          "trait_type": "Background",
+          "value": "Midnight"
+        },
+        {
+          "trait_type": "Body",
+          "value": "Circuit"
+        },
+        {
+          "trait_type": "Accessory",
+          "value": "Antenna"
+        },
+        {
+          "trait_type": "Face",
+          "value": "Radar"
+        },
+        {
+          "trait_type": "Glasses",
+          "value": "Monocle"
+        },
+        {
+          "trait_type": "Tempo",
+          "value": "20 seconds"
+        },
+        {
+          "trait_type": "Direction",
+          "value": "Counterclockwise"
+        },
+        {
+          "trait_type": "Curve origin",
+          "value": "P-256"
+        },
+        {
+          "display_type": "number",
+          "trait_type": "Unix timestamp",
+          "value": 871696354
+        },
+        {
+          "display_type": "number",
+          "trait_type": "Candidate",
+          "value": 1842
+        }
+      ]
+    }
+  ]
+}
